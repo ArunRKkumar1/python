@@ -31,4 +31,17 @@ a = 1000
 b = 500
 diff = (a-b), (a+b), (a*b), (a/b)
 print( diff)
+ 
+ # Expression Execution
+ # String and numeric value can operate together with *
 
+A,B = 2,3
+Txt = "arun "
+print(A * Txt * B)
+
+
+# String and String can operate with +
+
+C,D ="2",3
+Txt= "@"
+print((C+Txt)*D)
