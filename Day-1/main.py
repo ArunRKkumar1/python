@@ -26,5 +26,9 @@ a = None
 print(type(old),(a))
 
 
-
+# sum of two number
+a = 1000
+b = 500
+diff = (a-b), (a+b), (a*b), (a/b)
+print( diff)
 
