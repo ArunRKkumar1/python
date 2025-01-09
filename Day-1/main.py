@@ -11,6 +11,20 @@ print(name,"\n", age, "\n", email, "\n", salary)
 
 # Here we can very easily to identify which data type we use here
 
-print(type(name), "\n" (age), "\n" (email), "\n" (salary))
+print(type(name))
+print(type(age))
+print(type(email))
+print(type(salary))
+
  
+ # Small example of data types
+
+age = 21
+old = False
+a = None
+
+print(type(old),(a))
+
+
+
 
