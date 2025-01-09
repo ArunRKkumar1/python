@@ -42,6 +42,6 @@ print(A * Txt * B)
 
 # String and String can operate with +
 
-C,D ="2",3
+C,D ="2",
 Txt= "@"
 print((C+Txt)*D)
