@@ -46,9 +46,9 @@ C,D ="2",3
 Txt= "@"
 print((C+Txt)*D)
 
-# floor gives closest integer, which is lesser than or equal
-#  to the float value.
-# result of (A//B) is same as floor (A/B).
+""" floor gives closest integer, which is lesser than or equal
+     to the float value.
+      result of (A//B) is same as floor (A/B)"""
 
 X,Z = 12,5
 y=X//Z
@@ -60,5 +60,9 @@ y=X//Z
 print(y)
 
 X,Z = 12,-5
+y=X//Z
+print(y)
+
+X,Z = 12,5
 y=X//Z
 print(y)
