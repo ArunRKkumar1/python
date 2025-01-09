@@ -63,6 +63,3 @@ X,Z = 12,-5
 y=X//Z
 print(y)
 
-X,Z = 12,5
-y=X//Z
-print(y)
