@@ -10,3 +10,7 @@ salary = 7
 print(name,"\n", age, "\n", email, "\n", salary)
 
 # Here we can very easily to identify which data type we use here
+
+print(type(name),  (age), (email),  (salary))
+ 
+
