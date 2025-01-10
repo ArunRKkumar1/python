@@ -21,3 +21,5 @@ print("my name is",name,"and i am", age,"and my salary", price)
 #         false and false or true
 #             false  or true
 #                   true
+
+
