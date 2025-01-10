@@ -45,11 +45,11 @@ else:
 marks = int(input("student marks :"))
 if (marks >=90):
     print("A grade")
-elif (marks >=70):
+elif (marks >=80):
     print("Student near to B grade")
-elif (marks >= 50):
+elif (marks >= 70):
     print("Student near to C grade")
-elif (marks >= 40):
+elif (marks >= 50):
     print("Student near to D grade")
 else:
     print("Student near to F grade")
