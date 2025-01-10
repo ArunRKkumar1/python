@@ -40,7 +40,7 @@ print(len)
 str = "Hi, $Iam the $ sysmbol $99.99"
 print(str.count("$"))
 
-"""
+
 
                              # Nesting #
 
@@ -54,4 +54,17 @@ if (age >= 18):
 else:
     print("cannot drive")            
 
+"""
 
+# write a program to ckeck if a number entered by the user is odd or even.
+num = int(input("enter any number : "))
+
+rem = num % 2
+if (rem == 0):
+    print("EVEN")
+else:
+    print("ODD")
+
+
+# write a program to find the greatest of 3 numbers entered by the user
+# write to check if a number is a multiple of 7 or not.
