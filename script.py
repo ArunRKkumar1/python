@@ -5,14 +5,14 @@ def git_auto_update():
     while True:
         try:
             # Stage all changes
-            subprocess.run(["git", "add", "."], check=True)
+            subprocess.run(["git", "add", "."])
             
             # Commit changes with a default message
-            commit_message = "Auto-update"
-            subprocess.run(["git", "commit", "-m", commit_message], check=True)
+            commit_message = "conditions works successfully"
+            subprocess.run(["git", "commit", "-m", commit_message])
             
             # Push changes to the main branch
-            subprocess.run(["git", "push", "-u", "origin", "main"], check=True)
+            subprocess.run(["git", "push", "-u", "origin", "main"])
             
             print("Changes pushed successfully!")
         except subprocess.CalledProcessError as e:
