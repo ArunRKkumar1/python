@@ -1,9 +1,18 @@
-import os
+import subprocess
 
-#ask for the commit message
-commit_message = input("enter your message : ")
+# Prompt for the commit message
+commit_message = input("Enter commit message: ")
 
-#Run git commands
-os.system("git add .")
-os.system(f'git commit -m "{commit_message}"')
-os.system("git push -u origin main")
+try:
+    # Stage all changes
+    subprocess.run(["git", "add", "."], check=True)
+    
+    # Commit changes with the provided message
+    subprocess.run(["git", "commit", "-m", commit_message], check=True)
+    
+    # Push to the main branch
+    subprocess.run(["git", "push", "-u", "origin", "main"], check=True)
+    
+    print("Git operations completed successfully!")
+except subprocess.CalledProcessError as e:
+    print(f"An error occurred: {e}")
