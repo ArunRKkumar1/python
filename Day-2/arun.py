@@ -53,6 +53,7 @@ elif (marks >= 50):
     print("Student near to D grade")
 else:
     print("Student near to F grade")
+#code
 
 
 
