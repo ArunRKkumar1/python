@@ -22,9 +22,10 @@ print("my name is",name,"and i am", age,"and my salary", price)
 #             false  or true
 #                   true
 
-"""
+
 
 # conditional statement
+# trafic light system
 
 Light = input("light color : ")
 
@@ -36,6 +37,22 @@ elif(Light == "yellow"):
     print("wait")
 else:
     print("invalid color")
+
+"""
+
+# One more condition related to the number marking
+
+marks = int(input("student marks :"))
+if (marks >=90):
+    print("A grade")
+elif (marks >=70):
+    print("Student near to B grade")
+elif (marks >= 50):
+    print("Student near to C grade")
+elif (marks >= 40):
+    print("Student near to D grade")
+else:
+    print("Student near to F grade")
 
 
 
