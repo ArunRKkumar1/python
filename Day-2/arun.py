@@ -1,4 +1,4 @@
-# input() statement is used to accept values (using keyboard) form user
+""" input() statement is used to accept values (using keyboard) form user
 
 # string input
 name = input("name :")
@@ -21,5 +21,34 @@ print("my name is",name,"and i am", age,"and my salary", price)
 #         false and false or true
 #             false  or true
 #                   true
+
+"""
+
+# conditional statement
+
+Light = input("light color : ")
+
+if (Light == "red"):
+    print("stop")
+elif(Light == "green"):
+    print("go")
+elif(Light == "yellow"):
+    print("wait")
+else:
+    print("invalid color")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
