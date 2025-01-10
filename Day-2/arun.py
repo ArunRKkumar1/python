@@ -7,3 +7,5 @@ name = input("name :")
 
 age = int(input("age :"))
 
+# float input
+price = float (input("price :"))
