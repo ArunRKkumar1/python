@@ -29,7 +29,7 @@ a = int(a)
 print(type(a))
 print(a)
 
-'''
+
 
 # WAP to take details from a student for a id card
 
@@ -40,3 +40,12 @@ email = input("ente a student email id :")
 phone_no = input("ente a student phone number :")
 print(name, "\n", grade, "\n", age, "\n", email, "\n", phone_no)
 
+'''
+# WAP to take input an use as integer and convert into float
+a = int(input("enter a inter value : "))
+print(type(a))
+print(a)
+
+a = float(a)
+print(type(a))
+print(a)
